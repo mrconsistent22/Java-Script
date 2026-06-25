@@ -42,3 +42,46 @@ let someNumber = 22
 let stringNumber = String(someNumber) //converting number into string using string function
 console.log(typeof stringNumber) //string
 console.log(stringNumber) //22
+console.log()
+
+
+// ********************** Operations **********************
+
+// let value = 22
+// let negValue = -value  
+// console.log(negValue) // -22     
+
+
+// console.log(2+2)
+// and all other arithmetic operations like -, *, /, % etc. are also available in JS
+
+
+// let str1 = "Kane"
+// let str2 = " Williamson"
+
+// let str3 = str1 + str2 // concatenation of strings
+// console.log(str3) // Kane Williamson
+
+// console.log("1" + 2) // 12
+// console.log(1 + "2") // 12
+// console.log("1" + "2") // 12
+// console.log("1" + 2 + 2) // 122
+// console.log(1 + 2 + "2") // 32
+// console.log("1" + (2 + 2)) // 14
+
+
+console.log(true) // true
+console.log(+true) // 1
+// console.log(true+) // it will give error
+
+console.log(+"") // empty string prints false but a + sign before empty string converts it to number and prints 0
+
+let n1, n2, n3
+n1 = n2 = n3 = 2 + 2 // 4
+
+let gameCounter = 100
+console.log(gameCounter++) // 100, prints the value first then increments it by 1
+console.log(gameCounter) // 101
+
+console.log(++gameCounter) // 102, increments the value first then prints it
+console.log(gameCounter) // 102
